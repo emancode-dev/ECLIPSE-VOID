@@ -58,12 +58,11 @@ Swap these files to brand your own galaxies:
 
 ## 📸 Screenshots
 
-![Uploading screencapture-file-D-game-index-html-2025-10-19-23_45_08 (1).png…]()
-![Uploading screencapture-file-D-game-community-html-2025-10-19-23_45_47 (1).png…]()
-![Uploading screencapture-file-D-game-about-html-2025-10-19-23_45_58.png…]()
-![Uploading screencapture-file-D-game-contact-html-2025-10-19-23_46_05.png…]()
+<img width="1920" height="6159" alt="screencapture-file-D-game-index-html-2025-10-19-23_45_08 (1)" src="https://github.com/user-attachments/assets/7dcfffb2-7d67-4ae4-ba37-fcc1d4e65943" />
+<img width="1920" height="2745" alt="screencapture-file-D-game-about-html-2025-10-19-23_45_58" src="https://github.com/user-attachments/assets/40e10a64-7e13-420c-abab-26de932bf610" />
+<img width="1920" height="2281" alt="screencapture-file-D-game-contact-html-2025-10-19-23_46_05" src="https://github.com/user-attachments/assets/a99cc649-8ece-4dc9-bcfe-531f23ca170b" />
 <img width="1920" height="2232" alt="screencapture-file-D-game-community-html-2025-10-19-23_45_47" src="https://github.com/user-attachments/assets/4ee88091-d532-49d8-9b34-99552982cc58" />
-
+<img width="1920" height="4791" alt="screencapture-file-D-game-games-html-2025-10-20-00_25_47" src="https://github.com/user-attachments/assets/840e6080-03e1-4e00-bb69-36d0cb65f761" />
 
 ---
 
