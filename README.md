@@ -62,9 +62,7 @@ Swap these files to brand your own galaxies:
 ![Uploading screencapture-file-D-game-community-html-2025-10-19-23_45_47 (1).png…]()
 ![Uploading screencapture-file-D-game-about-html-2025-10-19-23_45_58.png…]()
 ![Uploading screencapture-file-D-game-contact-html-2025-10-19-23_46_05.png…]()
-![Uploading screencapture-file-D-game-community-html-2025-10-19-23_45_47.png…]()
-
-
+<img width="1920" height="2232" alt="screencapture-file-D-game-community-html-2025-10-19-23_45_47" src="https://github.com/user-attachments/assets/4ee88091-d532-49d8-9b34-99552982cc58" />
 
 
 ---
