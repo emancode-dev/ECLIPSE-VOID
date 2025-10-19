@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Games | Eclipse Void</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="index.html" class="logo">ECLIPSE VOID</a>
+    <ul class="nav-links">
+        <li><a href="games.html">Games</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+        <a href="index.html#loginModal" class="neon-btn small">Login</a>
+        <a href="index.html#registerModal" class="neon-btn small">Register</a>
+    </div>
+</nav>
+
+<section class="games-hero">
+    <div class="stars"></div>
+    <h1 class="glitch" data-text="GAMES">GAMES</h1>
+    <p class="tagline">Choose your realm. Bend reality.</p>
+</section>
+
+<section class="games-showcase">
+    <div class="showcase-grid">
+        <article class="show-card">
+            <div class="card-img"></div>
+            <div class="card-info">
+                <h3>Genshient-impact</h3>
+                <p>High quality graphic with story development to adventure journey.</p>
+                <button class="shimmer-btn">Play Now</button>
+            </div>
+        </article>
+
+        <article class="show-card">
+            <div class="card-img2"></div>
+            <div class="card-info">
+                <h3>Quantum Siege</h3>
+                <p>5 v 5 tactical shooter on shifting neon maps.</p>
+                <button class="shimmer-btn">Play Now</button>
+            </div>
+        </article>
+
+        <article class="show-card">
+            <div class="card-img3"></div>
+            <div class="card-info">
+                <h3>Nebula Drift</h3>
+                <p>Open-world exploration & survival in procedural galaxies.</p>
+                <button class="shimmer-btn">Play Now</button>
+            </div>
+        </article>
+
+        <article class="show-card">
+            <div class="card-img4"></div>
+            <div class="card-info">
+                <h3>Starforged</h3>
+                <p>Co-op dungeon crawler inside dying stars.</p>
+                <button class="shimmer-btn">Play Now</button>
+            </div>
+        </article>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; <span id="year"></span> Eclipse Void Industries</p>
+        <div class="social">
+            <a href="#" aria-label="Discord">💬</a>
+            <a href="#" aria-label="Twitter">🐦</a>
+            <a href="#" aria-label="YouTube">📺</a>
+        </div>
+    </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

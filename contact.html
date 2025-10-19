@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Eclipse Void</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="index.html" class="logo">ECLIPSE VOID</a>
+    <ul class="nav-links">
+        <li><a href="games.html">Games</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+        <a href="index.html#loginModal" class="neon-btn small">Login</a>
+        <a href="index.html#registerModal" class="neon-btn small">Register</a>
+    </div>
+</nav>
+
+<section class="contact-hero">
+    <div class="stars"></div>
+    <h1 class="glitch" data-text="CONTACT">CONTACT</h1>
+    <p class="tagline">Send a transmission across the void.</p>
+</section>
+
+<section class="contact-form-box">
+    <form>
+        <input type="text" placeholder="Callsign" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Transmission" required></textarea>
+        <button class="shimmer-btn">Send Message</button>
+    </form>
+</section>
+
+<section class="contact-map">
+    <div class="map-placeholder"></div>
+    <p>Find us in the Andromeda server cluster, node 7-x.</p>
+</section>
+
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; <span id="year"></span> Eclipse Void Industries</p>
+        <div class="social">
+            <a href="#" aria-label="Discord">💬</a>
+            <a href="#" aria-label="Twitter">🐦</a>
+            <a href="#" aria-label="YouTube">📺</a>
+        </div>
+    </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

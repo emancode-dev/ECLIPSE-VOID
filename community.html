@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Community | Eclipse Void</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ===== NAVBAR (same on every page) ===== -->
+<nav class="navbar">
+    <a href="index.html" class="logo">ECLIPSE VOID</a>
+    <ul class="nav-links">
+        <li><a href="games.html">Games</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+        <a href="index.html#loginModal" class="neon-btn small">Login</a>
+        <a href="index.html#registerModal" class="neon-btn small">Register</a>
+    </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="community-hero">
+    <div class="stars"></div>
+    <h1 class="glitch" data-text="COMMUNITY">COMMUNITY</h1>
+    <p class="tagline">Where legions collide & legends are forged.</p>
+</section>
+
+<!-- ===== TOURNAMENT CARDS ===== -->
+<section class="tournament-grid">
+    <h2>Active Tournaments</h2>
+    <div class="grid">
+        <article class="tour-card">
+            <div class="glow"></div>
+            <h3>Void Runners Cup</h3>
+            <p>5 v 5 • Starts in 02 : 15 : 33</p>
+            <span class="prize">₿ 5 000</span>
+        </article>
+        <article class="tour-card2">
+            <div class="glow"></div>
+            <h3>Starforged Gauntlet</h3>
+            <p>1 v 1 • Starts in 14 : 45 : 12</p>
+            <span class="prize">₿ 2 500</span>
+        </article>
+        <article class="tour-card3">
+            <div class="glow"></div>
+            <h3>Nebula Drift Rally</h3>
+            <p>Solo • Starts in 27 : 08 : 55</p>
+            <span class="prize">₿ 1 000</span>
+        </article>
+    </div>
+</section>
+
+<!-- ===== LIVE LEADERBOARD ===== -->
+<section class="leaderboard">
+    <h2>Cosmic Leaderboard</h2>
+    <ol class="leader-list">
+        <li><span class="rank">01</span><span class="name">Cygnus</span><span class="score">9 874</span></li>
+        <li><span class="rank">02</span><span class="name">Nova</span><span class="score">9 654</span></li>
+        <li><span class="rank">03</span><span class="name">Pulsar</span><span class="score">9 431</span></li>
+        <li><span class="rank">04</span><span class="name">Vex</span><span class="score">9 210</span></li>
+        <li><span class="rank">05</span><span class="name">Quasar</span><span class="score">8 997</span></li>
+    </ol>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; <span id="year"></span> Eclipse Void Industries</p>
+        <div class="social">
+            <a href="#" aria-label="Discord">💬</a>
+            <a href="#" aria-label="Twitter">🐦</a>
+            <a href="#" aria-label="YouTube">📺</a>
+        </div>
+    </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

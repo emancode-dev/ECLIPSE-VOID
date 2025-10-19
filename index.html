@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eclipse Void — Where Worlds Collide</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22  viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar">
+    <div class="logo">ECLIPSE VOID</div>
+    <ul class="nav-links">
+         <li><a href="games.html">Games</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+        <a href="#loginModal" class="neon-btn small">Login</a>
+        <a href="#registerModal" class="neon-btn small">Register</a>
+    </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero">
+    <div class="stars"></div>
+    <h1 class="glitch" data-text="ECLIPSE VOID">ECLIPSE VOID</h1>
+    <p class="tagline">Enter the Eclipse Void — Where Worlds Collide</p>
+    <a href="#registerModal" class="cta">Join the Legion</a>
+</section>
+
+<!-- ========== 3-D CAROUSEL ========== -->
+<section class="carousel-sec">
+    <h2>Featured Realms</h2>
+    <div class="carousel">
+        <div class="carousel__track">
+            <figure class="carousel__slide" style="--i:0"><img src="assets/anni.webp" alt="Realm 1"></figure>
+            <figure class="carousel__slide" style="--i:1"><img src="assets/cry.jpg" alt="Realm 2"></figure>
+            <figure class="carousel__slide" style="--i:2"><img src="assets/Dragon_Ball_Xenoverse_cover_art.jpg" alt="Realm 3"></figure>
+            <figure class="carousel__slide" style="--i:3"><img src="assets/resi.png" alt="Realm 4"></figure>
+            <figure class="carousel__slide" style="--i:4"><img src="assets/hori.jpg" alt="Realm 5"></figure>
+            <figure class="carousel__slide" style="--i:5"><img src="assets/scar.jpg" alt="Realm 6"></figure>
+        </div>
+    </div>
+</section>
+
+<!-- ========== FEATURED GAMES ========== -->
+<section id="games" class="games-grid">
+    <h2>Featured Games</h2>
+    <div class="grid">
+        <article class="game-card"><div class="glow"></div><h3>Nebula Drift</h3></article>
+        <article class="game-card2"><div class="glow"></div><h3>Quantum Siege</h3></article>
+        <article class="game-card3"><div class="glow"></div><h3>Void Runners</h3></article>
+        <article class="game-card4"><div class="glow"></div><h3>Starforged</h3></article>
+    </div>
+</section>
+
+<!-- ========== COMMUNITY ========== -->
+<section id="community" class="community">
+    <h2>Community & Tournaments</h2>
+    <div class="icons">
+        <div class="pulse-icon">🏆</div>
+        <div class="pulse-icon">👾</div>
+        <div class="pulse-icon">🌌</div>
+    </div>
+    <p class="glow-txt">Weekly tournaments • Cosmic leaderboards • Guild wars</p>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p class="reveal">We are a collective of interstellar devs forging next-gen experiences that bend reality.</p>
+    <div class="reveal-img"></div>
+</section>
+
+<!-- ========== NEW PLAN SECTION ========== -->
+<section id="plan" class="plan-sec">
+    <h2>Choose Your Ascension</h2>
+    <div class="plan-grid">
+        <!-- 3-D flip card -->
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front voyager">
+                    <h3>Voyager</h3>
+                    <p>Free</p>
+                </div>
+                <div class="flip-card-back">
+                    <ul>
+                        <li>Access to 2 realms</li>
+                        <li>Community chat</li>
+                        <li>Basic ship skin</li>
+                    </ul>
+                    <a href="#registerModal" class="neon-btn small">Select</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front legionnaire">
+                    <h3>Legionnaire</h3>
+                    <p>₿ 5 / mo</p>
+                </div>
+                <div class="flip-card-back">
+                    <ul>
+                        <li>All current realms</li>
+                        <li>Tournament entry</li>
+                        <li>Nova FX pack</li>
+                        <li>Priority servers</li>
+                    </ul>
+                    <a href="#registerModal" class="neon-btn small">Select</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front celestial">
+                    <h3>Celestial</h3>
+                    <p>₿ 15 / mo</p>
+                </div>
+                <div class="flip-card-back">
+                    <ul>
+                        <li>Everything in Legionnaire</li>
+                        <li>Procedural galaxy builder</li>
+                        <li>Dev insider builds</li>
+                        <li>Cosmic marketplace cut 0 %</li>
+                    </ul>
+                    <a href="#registerModal" class="neon-btn small">Select</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== JOIN ========== -->
+<section class="join">
+    <h2>Join the Legion</h2><br><br>
+    <a href="#registerModal" class="neon-btn">Register Now</a>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form>
+        <input type="text" placeholder="Callsign" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Transmission" required></textarea>
+        <button class="shimmer-btn">Send Message</button>
+    </form>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; <span id="year"></span> Eclipse Void Industries</p>
+        <div class="social">
+            <a href="#" aria-label="Discord">💬</a>
+            <a href="#" aria-label="Twitter">🐦</a>
+            <a href="#" aria-label="YouTube">📺</a>
+        </div>
+    </div>
+</footer>
+
+<!-- ========== LOGIN / REGISTER MODALS ========== -->
+<div class="modal" id="loginModal">
+    <div class="modal__content">
+        <a href="#" class="modal__close">&times;</a>
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="Callsign" required>
+            <input type="password" placeholder="Password" required>
+            <button class="shimmer-btn">Enter the Void</button>
+        </form>
+    </div>
+</div>
+
+<div class="modal" id="registerModal">
+    <div class="modal__content">
+        <a href="#" class="modal__close">&times;</a>
+        <h2>Register</h2>
+        <form>
+            <input type="text" placeholder="Callsign" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button class="shimmer-btn">Join the Legion</button>
+        </form>
+    </div>
+</div>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
